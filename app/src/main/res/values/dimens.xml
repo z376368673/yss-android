@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- EditText标准行高 -->
+    <dimen name="default_content_height">40.0dip</dimen>
+    <dimen name="default_title_height">50.0dip</dimen>
+    <dimen name="default_title_bar_height">80.0dip</dimen>
+    <dimen name="default_title_bar_bottom_height">2dip</dimen>
+
+    <!-- 顶部布局中按钮的宽度 -->
+    <dimen name="flipper_head_button_width">54.0dip</dimen>
+    <dimen name="content_width">40.0dip</dimen>
+    <dimen name="default_edit_height">48.0dip</dimen>
+    <dimen name="default_item_height">45dip</dimen>
+    <dimen name="default_image_width">25dip</dimen>
+    <dimen name="grid_height">90dp</dimen>
+    <!-- 正文内容字体大小-->
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="title_height">45.0dip</dimen>
+    <dimen name="title_default_textSize">18sp</dimen>
+</resources>

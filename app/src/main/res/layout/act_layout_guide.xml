@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_guide_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_60">
+
+        <LinearLayout
+            android:id="@+id/ll_guide_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+        <View
+            android:id="@+id/guide_checkPoint"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@mipmap/gundong" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_guide_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10"
+        android:paddingLeft="@dimen/dp_45"
+        android:paddingRight="@dimen/dp_45"
+        android:layout_marginBottom="@dimen/dp_50"
+        android:background="@drawable/radio_button_bg_selector"
+        android:visibility="invisible"
+        android:text="立即体验"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_16"
+        />
+
+</RelativeLayout>

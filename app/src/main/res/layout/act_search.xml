@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_f5f5f5"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_28"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="@dimen/dp_50"
+            android:src="@mipmap/ic_back_black"
+            android:padding="@dimen/dp_17"
+            />
+
+        <LinearLayout
+            android:id="@+id/layout_search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_34"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_30"
+            android:background="@drawable/radio_button_bg_selector_white_f2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dp_5"
+            android:paddingRight="@dimen/dp_5">
+
+            <ImageView
+                android:layout_width="@dimen/dp_32"
+                android:layout_height="@dimen/dp_32"
+                android:padding="@dimen/dp_8"
+                android:src="@mipmap/ic_search_gary" />
+
+            <EditText
+                android:id="@+id/edit_query"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/dp_30"
+                android:hint="搜出你想要的"
+                android:padding="2dp"
+                android:gravity="center_vertical"
+                android:background="@color/white"
+                android:imeOptions="actionSearch"
+                android:textColor="@color/black_1b"
+                android:textColorHint="#cccccc"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:maxLength="10"
+                android:textSize="@dimen/sp_12"
+                />
+            <ImageView
+                android:id="@+id/iv_close"
+                android:layout_width="@dimen/dp_32"
+                android:layout_height="@dimen/dp_32"
+                android:padding="@dimen/dp_5"
+                android:visibility="invisible"
+                android:src="@mipmap/ic_close_gary" />
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:background="@color/white"
+        app:tabBackground="@color/white"
+        android:paddingBottom="@dimen/dp_10"
+        app:tabIndicatorColor="@color/black_1b"
+        app:tabIndicatorHeight="2dip"
+        app:tabMinWidth="@dimen/dp_38"
+        app:tabMode="fixed"
+        app:tabPaddingEnd="20dip"
+        app:tabPaddingStart="20dip"
+        app:tabSelectedTextColor="@color/black_1b"
+        app:tabTextAppearance="@style/tab_head"
+        app:tabTextColor="@color/gray_d7" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_weight="1" />
+
+</LinearLayout>

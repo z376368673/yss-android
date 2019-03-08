@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_10"
+    android:background="@drawable/rect_radio_white_5"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dp_5"
+    android:paddingBottom="@dimen/dp_5">
+
+    <LinearLayout
+        android:id="@+id/layout_title"
+        style="@style/default_ll_horizon"
+        android:layout_width="match_parent">
+
+        <LinearLayout style="@style/default_ll_horizon">
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_store_black" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/default_textview_style"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:text="美迪惠尔店铺"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/sp_14" />
+
+            <ImageView
+                android:id="@+id/more_right"
+                android:layout_width="@dimen/dp_5"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:src="@mipmap/ic_right_gary" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.android.baselib.view.NoScrollListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/post_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px_pot5"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_14">
+
+            <TextView
+                android:id="@+id/tv_post"
+                style="@style/default_textview_style"
+                android:layout_weight="1"
+                android:text="配送方式"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/tv_post_detail"
+                style="@style/default_textview_style"
+                android:text="快递 免邮"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/sp_13" />
+
+            <ImageView
+                android:layout_width="@dimen/dp_5"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:src="@mipmap/ic_right_gary" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_pot1"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:background="@color/divider_color2" />
+    </LinearLayout>
+</LinearLayout>

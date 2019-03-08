@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_10000000">#E5000000</color>
+    <color name="color_20000000">#CC000000</color>
+    <color name="color_30000000">#B2000000</color>
+    <color name="color_40000000">#99000000</color>
+    <color name="color_50000000">#7000000F</color>
+    <color name="color_60000000">#66000000</color>
+    <color name="color_70000000">#4C000000</color>
+    <color name="color_80000000">#33000000</color>
+    <color name="color_90000000">#19000000</color>
+    <color name="color_FF000000">#FF000000</color>
+    <!-- StatusBar 颜色-->
+    <color name="status_backgroup">#d15</color>
+    <color name="title_text_color">#fff</color>
+    <color name="title_right_text_color">#fff</color>
+    <color name="title_left_text_color">#fff</color>
+
+</resources>

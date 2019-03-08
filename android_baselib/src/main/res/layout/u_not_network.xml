@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:id="@+id/layout_main"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/btn_left_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/iv_no_net" />
+
+    <TextView
+        android:id="@+id/btn_left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请检查网络或稍后再试"
+        android:textColor="#a7a7a7"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重新加载"
+        android:textColor="#dd000000"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/u_shape_no_network"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:textSize="16sp"
+        />
+</LinearLayout>

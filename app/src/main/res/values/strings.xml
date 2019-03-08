@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">曰十三</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="app_id">com.sszj.ctwh</string>
+
+    <string name="title_mainpage">首页</string>
+    <string name="title_forum">论坛</string>
+    <string name="title_information">信息</string>
+    <string name="title_mine">我的</string>
+
+    <string name="title_fqzt">发起状态</string>
+    <string name="title_zt">状态</string>
+    <string name="title_fatie">发帖</string>
+    <string name="title_infor_center">信息中心</string>
+    <string name="title_mine_string">个人中心</string>
+    <string name="title_wdgz">我的关注</string>
+    <string name="title_forget_pwd">忘记密码</string>
+    <string name="title_find_pwd">找回密码</string>
+    <string name="title_feedback">意见反馈</string>
+    <string name="title_version_update">版本更新</string>
+    <string name="title_function_intro">功能介绍</string>
+    <string name="title_wdjf">我的积分</string>
+    <string name="title_notify">通知</string>
+    <string name="title_edit_data">编辑个人资料</string>
+    <string name="title_dt_detail">详情</string>
+    <string name="title_wodeguanzhu">我的关注</string>
+    <string name="recognize_qr_code">识别二维码</string>
+
+    <string name="wdewm_string">我的二维码</string>
+    <string name="wdjf_string">我的积分</string>
+    <string name="setting_string">设置</string>
+    <string name="bq_string">标签</string>
+    <string name="no_biaoqian_choosed_string">至少挑选一项感兴趣的标签</string>
+    <string name="choosed_biaoqian_string">已选择过的标签</string>
+    <string name="tuijian_biaoqian_string">为您推荐标签</string>
+
+    <string name="title_about_app">关于曰十三</string>
+
+    <string name="title_zhyaq">账号与安全</string>
+    <string name="pwd_set_string">密码设置</string>
+    <string name="safe_bund_string">安全绑定</string>
+
+    <string name="qustion_string">问题和意见</string>
+    <string name="qustion_tips">请填写10个字以上的问题描述以便我们提供更好的服务</string>
+    <string name="lxdh_string">联系电话（选填、以便我们与你联系）</string>
+
+    <string name="title_set_pwd">设置密码</string>
+    <string name="jump_string">跳过</string>
+    <string name="set_pwd_string_tips">设置密码后可以通过手机号+密码进行登录</string>
+
+    <string name="need_login_tips">登录后别人给你发的私信，系统消\n息，都会再在这里收到通知</string>
+
+    <string name="phone_number">手机号码</string>
+    <string name="pwd">密码</string>
+    <string name="yzm_code_tips">输入4位短信验证码</string>
+    <string name="input_phone_number_tips">请输入手机号</string>
+    <string name="intput_yzm_code_tips">请输入短信验证码</string>
+    <string name="intput_pwd_code_tips">请输入密码登陆</string>
+    <string name="intput_pwd_tips">请输入密码(6-20为字母数字组合)</string>
+    <string name="intput_pwd_again_tips">确认密码(6-20为字母数字组合)</string>
+
+    <string name="intput_set_pwd_tips">新密码(6-20为字母数字组合)</string>
+    <string name="intput_set_again_pwd_tips">再次确认(6-20为字母数字组合)</string>
+    <string name="get_yzm">获取验证码</string>
+    <string name="get_dxyzm">获取短信验证码</string>
+    <string name="pwd_login">密码登录</string>
+    <string name="yzm_login">手机验证码登录</string>
+    <string name="login">登录</string>
+    <string name="complete">完成</string>
+    <string name="regist">注册</string>
+    <string name="no_account_tips">没有账号？</string>
+    <string name="account_tips">已有账号？</string>
+    <string name="forget_pwd">忘记密码？</string>
+    <string name="cancle">取消</string>
+    <string name="submit">提交</string>
+    <string name="publics">发布</string>
+    <string name="save">保存</string>
+    <string name="confirm">确定</string>
+    <string name="sure">确定</string>
+    <string name="delete">删除</string>
+    <string name="send">发送</string>
+    <string name="reply">回复</string>
+    <string name="add">添加</string>
+    <string name="gologin">去登录</string>
+
+    <string name="pay_success">支 付 成 功</string>
+    <string name="pay_faild">支 付 失 败</string>
+
+    <string name="mall_all">全部</string>
+    <string name="mall_store">店铺</string>
+
+    <string name="input_keyword_query_tips">输入关键字查询</string>
+    <string name="input_goods_query_tips">搜出你想要的</string>
+
+    <string name="forum_zztl">正在讨论</string>
+    <string name="forum_ckqb">查看全部</string>
+
+    <string name="infor_personal">私信列表</string>
+    <string name="infor_system">系统消息</string>
+
+    <string name="title_ewm">我的二维码</string>
+
+    <string name="sixin_string">私信</string>
+    <string name="guanzhu_string">关注</string>
+    <string name="fensi_string">粉丝</string>
+
+    <string name="logout_string">退出登录</string>
+
+
+    <string name="net_error_timeoutmsg">网络繁忙！</string>
+    <string name="net_error_msg">请检查网络设置</string>
+    <string name="net_getdata_format_msg">数据格式错误</string>
+    <string name="net_error_servic">网络繁忙</string>
+    <string name="no_more_data">无更多数据！</string>
+
+
+    <!--<string name="photo_authorith">com.hss01248.photoouter.fileprovider_ctwh</string>-->
+    <string name="__picker_title">图片选择</string>
+    <string name="__picker_delete">删除</string>
+    <string name="__picker_done">完成</string>
+    <string name="__picker_done_with_count">完成(%1$d/%2$d)</string>
+    <string name="__picker_image_index">%1$d/%2$d</string>
+    <string name="__picker_undo">撤消</string>
+    <string name="__picker_deleted_a_photo">删除了一张图片</string>
+    <string name="__picker_confirm_to_delete">确认删除？</string>
+    <string name="__picker_yes">确定</string>
+    <string name="__picker_cancel">取消</string>
+    <string name="__picker_all_image">所有图片</string>
+    <string name="__picker_over_max_count_tips">你最多可以选择%1$d张图片</string>
+    <string name="__picker_image_count">%1$d张</string>
+
+    <string name="__picker_preview">预览</string>
+
+    <string name="total_num">共%1$s件商品 合计：</string>
+    <string name="ip_preview_image_count">%1$d/%2$d</string>
+
+
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/rl_vlf_normal"
+            android:layout_height="48dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/rl_vlf_nodata"
+            android:visibility="gone"
+            android:layout_height="48dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="没有更多"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:id="@+id/rl_vlf_loading"
+            android:layout_height="48dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="努力加载中..."
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:id="@+id/rl_vlf_failure"
+            android:layout_height="48dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="获取失败，点击重试"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
